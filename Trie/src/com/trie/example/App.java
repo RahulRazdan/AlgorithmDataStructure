@@ -4,12 +4,12 @@ public class App {
 
 	public static void main(String[] args) {
 		Trie trie = new Trie();
-		trie.insert("rahul",2);
+		trie.insert("raul",2);
 		trie.insert("razdan",3);
-		trie.insert("amman",4);
-		trie.insert("joe",5);
+		trie.insert("ramesh",4);
+		trie.insert("rakesh",5);
 		
-		System.out.println(trie.searchAsMap("amman"));
+		System.out.println(trie.longestCommonPrefix());
 		
 	}
 }
